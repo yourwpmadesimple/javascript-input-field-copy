@@ -3,14 +3,20 @@ const copyContent = document.querySelectorAll('.copy-content').forEach(copyConte
     const copyButton = copyContentContainer.querySelector('.copy-content-button')
     const text = inputField.value
 
-    inputField.addEventListener('focus', () => {
+    inputField.addEventListener('click', () => {
         inputField.select()
         navigator.clipboard.writeText(text)
+
+        inputField.value = "Copied!";
+        setInterval(() => inputField.value = text, 2000)
     })
 
     copyButton.addEventListener('click', () => {
         inputField.select()
         navigator.clipboard.writeText(text)
+
+        inputField.value = "Copied!";
+        setInterval(() => inputField.value = text, 2000)
     })
 
 })

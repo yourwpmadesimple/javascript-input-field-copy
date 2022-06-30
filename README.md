@@ -22,6 +22,9 @@ const copyContent = document.querySelectorAll('.copy-content').forEach(copyConte
     copyButton.addEventListener('click', () => {
         inputField.select()
         navigator.clipboard.writeText(text)
+
+        inputField.value = "Copied!";
+        setInterval(() => inputField.value = text, 2000)
     })
 
 })
