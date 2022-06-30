@@ -2,5 +2,7 @@
 
 # Javascript Copy To Clipboard
 #### Resources
-1. MATERIAL ICONS INSTALL `https://fonts.googleapis.com/icon?family=Material+Icons` [Google Fonts](https://fonts.googleapis.com/icon?family=Material+Icons)
-2. MATERIAL ICONS LIBRARY: `https://fonts.google.com/icons?icon.style=Filled&icon.set=Material+Icons&icon.query=copy` [Content Copy](https://fonts.google.com/icons?icon.style=Filled&icon.set=Material+Icons&icon.query=copy)
+1. MATERIAL ICONS INSTALL [Google Fonts](https://fonts.googleapis.com/icon?family=Material+Icons)
+`<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">`
+2. MATERIAL ICONS LIBRARY: [Content Copy](https://fonts.google.com/icons?icon.style=Filled&icon.set=Material+Icons&icon.query=copy)
+`<span class="material-icons">content_copy</span>`
