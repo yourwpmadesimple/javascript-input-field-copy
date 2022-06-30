@@ -1,0 +1,31 @@
+.copy-content {
+  --height: 36px;
+  display: flex;
+  max-width: 250px;
+}
+
+.copy-content-input {
+  flex-grow: 1;
+  padding: 0 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-right: none;
+  outline: none;
+}
+.copy-content-input:hover,
+.copy-content-button:hover {
+  background-color: rgb(225, 244, 231);
+}
+.copy-content-button {
+  cursor: pointer;
+  flex-shrink: 0;
+  width: var(--height);
+  height: var(--height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ddd;
+  color: #333;
+  outline: none;
+  border: 1px solid #ccc;
+}
